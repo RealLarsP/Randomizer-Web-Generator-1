@@ -1116,7 +1116,7 @@ namespace TPRandomizer
                     roomName = dungeon;
                     if (dungeon == "Snowpeak Ruins")
                     {
-                        roomName += "Right Door";
+                        roomName += " Right Door";
                     }
                     else
                     {
