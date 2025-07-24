@@ -129,8 +129,8 @@
         [
           {
             "ConnectedArea": "Mirror Chamber Lower",
-            "Requirements": "CanDefeatStallord",
-            "GlitchedRequirements": "CanDefeatStallord"
+            "Requirements": "CanDefeatStallord and !(Setting.mirrorChamberEntrance equals Closed)",
+            "GlitchedRequirements": "CanDefeatStallord and !(Setting.mirrorChamberEntrance equals Closed)"
           }
         ],
         "Checks": 
