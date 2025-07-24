@@ -235,8 +235,8 @@
     [
       {
         "ConnectedArea": "Arbiters Grounds Boss Room",
-        "Requirements": "Room.Arbiters_Grounds_Boss_Room and CanDefeatStallord",
-        "GlitchedRequirements": "Room.Arbiters_Grounds_Boss_Room and CanDefeatStallord"
+        "Requirements": "(Setting.mirrorChamberEntrance equals Open) or ((Setting.mirrorChamberEntrance equals Barrier) and Room.Arbiters_Grounds_Boss_Room and CanDefeatStallord)",
+        "GlitchedRequirements": "(Setting.mirrorChamberEntrance equals Open) or ((Setting.mirrorChamberEntrance equals Barrier) and Room.Arbiters_Grounds_Boss_Room and CanDefeatStallord)"
       },
       {
         "ConnectedArea": "Mirror Chamber Upper",
